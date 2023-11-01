@@ -1,0 +1,8 @@
+torch==2.1.0
+transformers==4.31.0
+accelerate==0.23.0
+einops
+sentencepiece
+tokenizers
+deepspeed
+numpy
