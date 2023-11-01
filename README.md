@@ -286,14 +286,4 @@ model = AutoPeftModelForCausalLM.from_pretrained("output", trust_remote_code=Tru
 ```
 
 # 开源协议
-社区使用LingoWhale-8B模型需要遵循Apache 2.0和[《LingoWhale-8B模型许可协议》](LICENSE)。若您期望基于[《LingoWhale-8B模型许可协议》](LICENSE)的许可条件与限制，将此源模型或其衍生品用作商业用途，请您按照如下方式联系LingoWhale-8B模型开发团队进行登记并申请书面授权：
-
-1. 联系邮箱：license@deeplang.ai
-2. 需提交内容如下：
-
-| **选项** | **是否必须** | **说明** |
-| :----: | :----: | :---- |
-| **申请人姓名** | 是 | 请填写申请人真实姓名。 |
-| **申请企业名称** | 是 | 请填写完整的企业名称，自然人不能申请此源模型的商业许可。 |
-| **联系方式** | 是 | 请填写真实邮箱，用于接收授权书文件。 |
-| **使用目的和场景** | 是 | 请填写真实使用目的和场景。 |
+社区使用LingoWhale-8B模型需要遵循[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)和[《LingoWhale-8B模型许可协议》](MODEL_LICENSE.md)。若您期望将此源模型或其衍生品用作商业用途，请参考[《LingoWhale-8B模型许可协议》](MODEL_LICENSE.md)。

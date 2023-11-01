@@ -292,14 +292,4 @@ model = AutoPeftModelForCausalLM.from_pretrained("output", trust_remote_code=Tru
 ```
 
 # Open Source License
-The community use of the LingoWhale-8B model must adhere to the Apache 2.0 license and the [LingoWhale-8B Model License Agreement](LICENSE). If you wish to use this source model or its derivatives for commercial purposes under the terms and conditions of the [LingoWhale-8B Model License Agreement](LICENSE), please contact the LingoWhale-8B model development team for registration and to apply for written authorization as follows:
-
-1. Contact email: license@deeplang.ai
-2. Submit the following details:
-
-| **Option** | **Required** | **Description** |
-| :-------: | :----------: | :-------------- |
-| **Applicant's Name** | Yes | Please provide the real name of the applicant. |
-| **Company Name** | Yes | Provide the complete company name. Individuals cannot apply for the commercial license of this source model. |
-| **Contact Information** | Yes | Provide a valid email address, which will be used to receive the authorization document. |
-| **Purpose and Scenario of Use** | Yes | Describe the real purpose and scenario in which the model will be used. |
+The community use of the LingoWhale-8B model must adhere to the [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0) and the [LingoWhale-8B Model License Agreement](MODEL_LICENSE.md). If you wish to use this source model or its derivatives for commercial purposes, please refer to [LingoWhale-8B Model License Agreement](MODEL_LICENSE.md).
