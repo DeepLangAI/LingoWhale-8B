@@ -1,5 +1,5 @@
 <p align="left">
-    <a href="README_EN.md">English</a>&nbsp ｜ &nbsp中文
+    <a href="README_EN.md">English</a>&nbsp ｜ &nbsp中文</a>
 </p>
 <br>
 
@@ -10,7 +10,7 @@ LingoWhale-8B
 </div>
 
 <p align="center">
-🤗 <a href="https://huggingface.co/deeplang-ai/LingoWhale-8B" target="_blank">Hugging Face</a> • 🤖 <a href="https://www.modelscope.cn/models/DeepLang/LingoWhale-8B" target="_blank">ModelScope</a> • ⛵ <a href="https://wisemodel.cn/models/%E5%8C%97%E4%BA%AC%E6%B7%B1%E8%A8%80%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E8%B4%A3%E4%BB%BB%E5%85%AC%E5%8F%B8/LingoWhale-8B/" target="_blank">Wisemodel</a>
+🤗 <a href="https://huggingface.co/deeplang-ai/LingoWhale-8B" target="_blank">Hugging Face</a> • 🤖 <a href="https://www.modelscope.cn/models/DeepLang/LingoWhale-8B" target="_blank">ModelScope</a> • ⛵ <a href="https://wisemodel.cn/models/DeepLang/LingoWhale-8B/" target="_blank">Wisemodel</a>
 </p>
 
 <div align="center">
@@ -64,12 +64,13 @@ LingoWhale-8B模型对学术研究完全开放，使用方通过邮件申请并�
 | **GPT-4**              |   68.4   |   83.9   |   70.3   |   66.2   |    69.5     |   90.0   |   75.1   |   63.3    |
 | **GPT-3.5 Turbo**      |   51.1   |   68.5   |   54.1   |   47.1   |    52.4     |   57.8   |   61.6   |   46.1    |
 | **LLaMA2-7B**          |   28.9   |   45.7   |   31.4   |   26.0   |    12.8     |   16.2   |   39.2   |   26.5    |
-| **ChatGLM2-6B**        |   50.2   |   45.9   |   49.0   |   49.4   |    9.2      |   28.9   |   31.7   |   45.3    |
-| **Baichuan2-7B-Base**  |   54.0   |   54.2   |   57.1   |   47.5   |    18.3     |   24.5   |   41.6   |   42.7    |
-| **Qwen-7B v1.1**       |   63.5   |   58.2   |   62.2   |     -    |    29.9     |   51.7   |   45.0   |     -     |
+| **ChatGLM2-6B***      |   51.7   |   47.9   |     -    |     -    |      -      |   32.4   |   33.7   |     -     |
+| **Baichuan2-7B-Base***  |   54.0   |   54.2   |   57.1   |   47.5   |    18.3     |   24.5   |   41.6   |   42.7    |
+| **Qwen-7B v1.1***      |   63.5   |   58.2   |   62.2   |     -    |    29.9     |   51.7   |   45.0   |     -     |
 | **LingoWhale-8B-base** |   63.6   |   60.2   |   62.8   |   50.3   |    32.9     |   55.0   |   47.5   |   43.8    |
 
-<span style="color:gray">对于以上所有对比模型，我们列出了其官方汇报结果并四舍五入保留一位小数。</span>
+
+<span style="color:gray">*表示其模型结果来自于官方， 所有的结果都精确到小数点后1位。 </span>
 
 # 生成样例
 
@@ -286,4 +287,4 @@ model = AutoPeftModelForCausalLM.from_pretrained("output", trust_remote_code=Tru
 ```
 
 # 开源协议
-社区使用LingoWhale-8B模型需要遵循[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)和[《LingoWhale-8B模型许可协议》](MODEL_LICENSE.md)。若您期望将此源模型或其衍生品用作商业用途，请参考[《LingoWhale-8B模型许可协议》](MODEL_LICENSE.md)。
+社区使用LingoWhale-8B模型需要遵循[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)和[《LingoWhale-8B模型许可协议》](MODEL_LICENSE.md)。若您期望将此源模型或其衍生品用作商业用途，请填写[问卷](https://deeplang.feishu.cn/share/base/form/shrcnzt705EDAvVrmAJUCyg7TIb)进行申请，通过后即可**免费商用**。
